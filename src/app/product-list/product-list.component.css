@@ -1,0 +1,29 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: arial;
+    max-width: 300px;
+    width: auto;
+    height: 450px;
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+    position: relative;
+  }
+  
+.price {
+    color: grey;
+    font-size: 22px;
+  }
+
+.text {
+  display: block;
+  display: -webkit-box;
+  max-width: 400px;
+  height: 50px;
+  margin: auto;
+  line-height: 1.2;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
